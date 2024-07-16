@@ -1,0 +1,45 @@
+/* Global Styles */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  max-width: 1230px;
+  min-height: 100vh;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+@import url("./components/headers/header.css");
+
+@import url("./components/mainPages/products/products.css");
+
+@import url("./components/utils/DetailProducts/detailProduct.css");
